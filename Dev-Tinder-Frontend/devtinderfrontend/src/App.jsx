@@ -18,7 +18,7 @@ const App = () => {
         <Body /> {/* Navbar and Footer stay persistent */}
         <div className="container text-center mt-5">
           <Routes>
-            <Route path="/" element={<Feed />} />
+            <Route path="/" element={<Login />} />
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<Login />} />
             <Route path="/profile" element={<Profile />} />
